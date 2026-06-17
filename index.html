@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brayden Smith | Software Engineer &amp; IT Professional</title>
+    <meta
+      name="description"
+      content="IT/Software Portfolio - Brayden Smith. Innovative solutions in software development and IT operations."
+    />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background elements -->
+    <div class="bg-nebula"></div>
+    <canvas id="starfield"></canvas>
+    <div class="vignette"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="wrap">
+        <a href="#" class="brand">BRAYDEN<span>SMITH</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#highlights">Accomplishments</a></li>
+          <li><a href="#about">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            href="assets/resume.pdf"
+            download
+            class="btn btn-sm btn-ghost resume-nav"
+            >Download Resume (PDF)</a
+          >
+          <button
+            class="nav-toggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-inner">
+          <div class="eyebrow">COMPTIA A+ // UCSC CS GRADUATE</div>
+          <h1>Brayden Smith</h1>
+          <div class="hero-role">
+            IT OPERATIONS SPECIALIST &amp; DEVELOPER &amp; MANAGEMENT
+          </div>
+          <p class="lead">
+            Building secure, efficient systems and intuitive digital
+            experiences. Passionate about clean code, user-centered design, and
+            turning complex problems into elegant solutions. Doing my best to
+            help my team succeed.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/resume.pdf" download class="btn btn-ghost"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue">
+        <div class="line"></div>
+        <span>SCROLL FOR TRANSMISSION</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="reveal-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">ARCHIVE // ACTIVE MISSIONS</div>
+          <h2>Mission Log</h2>
+          <p>
+            Selected deployments showcasing software engineering, leadership,
+            hardware, and creative systems.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- #1 BALLISTIC -->
+          <div class="project-card reveal">
+            <div class="project-top">
+              <div class="patch"><span>DB-01</span></div>
+              <div class="status-pill">STEAM RELEASE</div>
+            </div>
+            <div class="sector">Game Development • Team Lead</div>
+            <h3>BALLISTIC</h3>
+            <p>
+              Led a team in the development and successful release of
+              <strong>BALLISTIC</strong>, a fast-paced multiplayer dodgeball
+              game on Steam. Responsible for core gameplay systems, networking,
+              and project coordination.
+            </p>
+
+            <div class="video-frame">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Ga6Gv9--SLo"
+                title="BALLISTIC - Multiplayer Dodgeball Trailer"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <a
+              href="https://store.steampowered.com/app/2967570/BALLISTIC/"
+              target="_blank"
+              class="btn btn-ghost"
+              style="margin-top: auto"
+            >
+              PLAY ON STEAM
+            </a>
+          </div>
+
+          <!-- #2 Glitch Camera (Berry) -->
+          <div class="project-card reveal">
+            <div class="project-top">
+              <div class="patch"><span>GC-02</span></div>
+              <div class="status-pill">HARDWARE</div>
+            </div>
+            <div class="sector">Creative Electronics</div>
+            <h3>Glitch Camera</h3>
+            <p>
+              Designed and built a custom strawberry-shaped camera shell with
+              glitch-art effects. 3D modeled the enclosure, tested multiple pin
+              configurations, and hand-soldered the final assembly.
+            </p>
+
+            <div class="video-frame">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/yLA6Xs6fUtQ"
+                title="Glitch Camera - Strawberry Build"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <a
+              href="https://youtu.be/yLA6Xs6fUtQ"
+              target="_blank"
+              class="btn btn-ghost"
+              style="margin-top: auto"
+            >
+              WATCH BUILD VIDEO
+            </a>
+          </div>
+
+          <!-- #3 IT Tickets -->
+          <div class="project-card reveal">
+            <div class="project-top">
+              <div class="patch"><span>IT-03</span></div>
+              <div class="status-pill">DEPLOYED</div>
+            </div>
+            <div class="sector">Support Systems</div>
+            <h3>IT Tickets</h3>
+            <p>
+              A robust system for managing IT support tickets with efficient
+              tracking, assignment, and resolution workflows.
+            </p>
+
+            <div class="video-frame">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/r4GnLjBfXlA?si=kXN56pfXDsdZD400"
+                title="IT Tickets Demo"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <a
+              href="https://github.com/bsmit104/IT-Tickets"
+              target="_blank"
+              class="btn btn-ghost"
+              style="margin-top: auto"
+            >
+              VIEW SOURCE
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section
+      id="skills"
+      class="reveal-section"
+      style="background: rgba(7, 9, 15, 0.6)"
+    >
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">SYSTEMS STATUS</div>
+          <h2>Core Modules</h2>
+          <p>Technologies and tools I deploy daily.</p>
+        </div>
+
+        <div class="skills-board">
+          <div class="skill-group reveal">
+            <h4>INFRASTRUCTURE</h4>
+            <ul>
+              <li><span class="dot"></span>Windows OS Administration</li>
+              <li><span class="dot"></span>PowerShell</li>
+              <li><span class="dot"></span>IT Support &amp; Troubleshooting</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4>MANAGEMENT</h4>
+            <ul>
+              <li><span class="dot"></span>Managed 30 Employees</li>
+              <li><span class="dot"></span>Built 10 Stores from Ground Up</li>
+              <li>
+                <span class="dot"></span>Maintained Interactive Store
+                Experiences & POS Equipment
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4>PRODUCTIVITY</h4>
+            <ul>
+              <li><span class="dot"></span>Microsoft Office Suite</li>
+              <li><span class="dot"></span>Agile Methodologies</li>
+              <li><span class="dot"></span>UI/UX Principles</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4>LANGUAGES</h4>
+            <ul>
+              <li><span class="dot"></span>Python</li>
+              <li><span class="dot"></span>JavaScript / TypeScript</li>
+              <li><span class="dot"></span>C / C# / C++</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4>DEVELOPMENT</h4>
+            <ul>
+              <li><span class="dot"></span>Web Development</li>
+              <li><span class="dot"></span>Database Management</li>
+              <li><span class="dot"></span>Git / GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4>CREATIVE &amp; EMERGING TECH</h4>
+            <ul>
+              <li><span class="dot"></span>Unity Game Development</li>
+              <li><span class="dot"></span>3D Modeling &amp; 3D Printing</li>
+              <li><span class="dot"></span>AI Integration in Workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section id="highlights" class="reveal-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">FLIGHT RECORD</div>
+          <h2>Impact &amp; Achievements</h2>
+          <p>Key contributions and recognitions.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-card reveal">
+            <div class="mark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+            </div>
+            <h3>Streamlined Operations</h3>
+            <p>
+              Designed and implemented store systems at Spirit Halloween to
+              become a top performing store in the state.
+            </p>
+          </div>
+
+          <div class="highlight-card reveal">
+            <div class="mark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 20l-4-4m0 0l-4 4m4-4v-6"
+                />
+              </svg>
+            </div>
+            <h3>Built from Scratch</h3>
+            <p>
+              Promoted to leadership roles at multiple institutions.
+              Consistently built and optimized processes, teams, and operations
+              from the ground up.
+            </p>
+          </div>
+
+          <div class="highlight-card reveal">
+            <div class="mark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 8.944 11.922.42.095.858.143 1.295.143a3 3 0 01.435-.018"
+                />
+              </svg>
+            </div>
+            <h3>Data Security</h3>
+            <p>
+              Built secure patient data tracking solutions with emphasis on
+              privacy and compliance.
+            </p>
+          </div>
+
+          <div class="highlight-card reveal">
+            <div class="mark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 3v4M3 5h4M6 17l1.333 2.667L10 17l1.333 2.667L14 17l-1.333-2.667L10 17 8.667 14.333 6 17z"
+                />
+              </svg>
+            </div>
+            <h3>Awards &amp; Recognition</h3>
+            <p>
+              UCSC Best Video Game Award • Top Performance, Spirit Halloween
+              Donations
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section
+      id="about"
+      class="reveal-section"
+      style="background: rgba(7, 9, 15, 0.6)"
+    >
+      <div class="wrap">
+        <div class="about-layout">
+          <div class="about-bio reveal">
+            <div class="eyebrow">CREW PROFILE</div>
+            <h2>About Me</h2>
+            <p>
+              I'm a passionate IT professional and software developer creating
+              innovative solutions. Graduated from University of California,
+              Santa Cruz.
+            </p>
+            <p>
+              Outside of work I enjoy climbing, running, sailing, and exploring
+              the outdoors. I've been with my girlfriend for 8 years. Currently
+              building a RC full scale R2D2 droid with my 3D printer.
+            </p>
+
+            <div class="value-chips">
+              <span>Innovation</span>
+              <span>Reliability</span>
+              <span>Collaboration</span>
+              <span>Efficiency</span>
+              <span>Positivity</span>
+            </div>
+
+            <p style="margin-top: 32px; font-size: 0.95rem; color: var(--dim)">
+              Game Development Portfolio:
+              <a
+                href="https://bsmit104.github.io/website3.0/"
+                target="_blank"
+                style="color: var(--ion)"
+                >bsmit104.github.io/website3.0</a
+              >
+            </p>
+          </div>
+
+          <!-- Improved Gallery -->
+          <div class="about-gallery reveal">
+            <img src="assets/snowBrayden.png" alt="Brayden Smith" />
+            <img
+              src="assets/grad.jpg"
+              alt="Graduation - UCSC"
+              style="object-position: center 20%"
+            />
+            <img src="assets/climb.png" alt="Climbing" />
+            <img src="assets/cruise.jpg" alt="Cruise" />
+            <img src="assets/sail.jpg" alt="Sailing" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="reveal-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">OPEN CHANNEL</div>
+          <h2>Let's Connect</h2>
+          <p>
+            Ready for new missions. Reach out for opportunities or
+            collaboration.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:jbrayden35@gmail.com" class="contact-card reveal">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2.01 2.01 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class="label">PRIMARY TRANSMISSION</div>
+              <div class="value">jbrayden35@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="tel:6617134410" class="contact-card reveal">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2 2 2 0 01-2-2 2 2 0 01-2-2 2 2 0 012-2 2 2 0 01-2-2 2 2 0 012-2z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 4.01V8"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class="label">DIRECT LINE</div>
+              <div class="value">(661) 713-4410</div>
+            </div>
+          </a>
+        </div>
+
+        <p
+          class="contact-note reveal"
+          style="text-align: center; max-width: 520px; margin: 48px auto 0"
+        >
+          Currently pursuing full-time opportunities in IT roles.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrap">
+        <p>
+          © 2026 Brayden Smith • All Rights Reserved • Built with stars and
+          code
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
